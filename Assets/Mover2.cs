@@ -24,7 +24,7 @@ public class Mover2 : MonoBehaviour {
 	void Start () {
 		gizmoColour = Color.green;
 		direction = Vector3.forward;
-		transform.position = new Vector3( -area*0.5f, 1, -area*0.5f);
+		
 		prevPosition = transform.position;
 
 		spacing = 0.5f* area / (float)maxRepetitions;
